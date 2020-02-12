@@ -2,6 +2,7 @@ import math
 import random
 
 
+
 def wpisz_p():
     pierwsza=input("Podaj liczbe pierwsza:" )
 
