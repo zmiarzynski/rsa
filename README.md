@@ -205,6 +205,4 @@ Dodatkowo pojawiła się jeszcze czwarta klasa - Cache odpowiedzialna za przepro
  https://pl.wikipedia.org/wiki/RSA_(kryptografia)
  
  
-=======
-![Gui](gui.PNG)
->>>>>>> origin/master
+
