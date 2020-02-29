@@ -5,7 +5,7 @@ Program's aim is to imitate the act of asymmetric encoding -rsa algorithm. It en
 Those are too small to be secure in real life.
 
 Program's GUI is in Polish language.
-![Gui](gui.PNG)
+![Gui](rsa.PNG)
 
 
  
