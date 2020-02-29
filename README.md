@@ -5,8 +5,9 @@ Program's aim is to imitate the act of asymmetric encoding -rsa algorithm. It en
 Those are too small to be secure in real life.
 
 Program's GUI is in Polish language.
-<<<<<<< HEAD
-![Gui](gui.PNG) 
+![Gui](rsa.PNG)
+
+
  
  #  Wprowadzenie z opisem teoretycznym algorytmu
  Głównym zadaniem programu jest zasymulować działanie asymetrycznego algorytmu kryptograficznego RSA
@@ -204,6 +205,4 @@ Dodatkowo pojawiła się jeszcze czwarta klasa - Cache odpowiedzialna za przepro
  https://pl.wikipedia.org/wiki/RSA_(kryptografia)
  
  
-=======
-![Gui](gui.PNG)
->>>>>>> origin/master
+
