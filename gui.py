@@ -8,7 +8,7 @@ from primes import Prime
 HEIGHT = 800
 WIDTH = 900
 COLLORBUTTON='#bfbfbf'
-COLORBACKGROUND='#333300'
+COLORBACKGROUND='#3d3d5c'
 COLORBUT1='#1a1a1a'
 
 
@@ -142,7 +142,7 @@ canvas.pack()
 
 frameGeneruj=tk.Frame(root, bg=COLORBACKGROUND)
 frameGeneruj.place(relwidth=1,relheight=0.3)
-info=tk.Label(frameGeneruj,text='Aby wygenerować klucz wpisz liczby pierwsze i zatwierdź OK lub pomiń, aby wrócić do wartości domyślnych',bg='#ffff99')
+info=tk.Label(frameGeneruj,text='Aby wygenerować klucz wpisz liczby pierwsze i zatwierdź OK lub pomiń, aby wrócić do wartości domyślnych',bg='#cccccc')
 info.place( rely=0.0, relx=0.1 , relheight=0.1, relwidth=0.8)
 labelLpierwsza=tk.Label(frameGeneruj, text="Podaj liczbę")
 labelLpierwsza.place(rely=0.1, relx=0.1, relheight=0.1, relwidth=0.1)
@@ -159,7 +159,7 @@ entryldruga.place(rely=0.2, relx=0.8, relheight=0.1, relwidth=0.1)
 buttonok2=tk.Button(frameGeneruj, text="OK", command=lambda:onwpiszliczbepierwszaY(entryldruga), activebackground=COLLORBUTTON,bg=COLORBUT1,fg='white')
 buttonok2.place( rely=0.3, relx=0.8, relheight=0.09, relwidth=0.1)
 # wartosci n, e i d
-labelKP=tk.Label(frameGeneruj, text="Para (e,n) tworzy klucz publiczny, para (d,n) tworzy klucz prywatny",bg='#ffff99')
+labelKP=tk.Label(frameGeneruj, text="Para (e,n) tworzy klucz publiczny, para (d,n) tworzy klucz prywatny",bg='#cccccc')
 labelKP.place(rely=0.5, relx=0.15, relheight=0.1, relwidth=0.7)
 labelE=tk.Label(frameGeneruj, text="e:")
 labelE.place(rely=0.6, relx=0.15, relheight=0.1, relwidth=0.1)
